@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="sec-notes — notes, writeups and resources from my journey into CTFs and offensive security">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="320" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="#0d1117"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- title bar -->
+    <rect width="1200" height="46" fill="#161b22"/>
+    <circle cx="26" cy="23" r="6" fill="#ff5f56"/>
+    <circle cx="48" cy="23" r="6" fill="#ffbd2e"/>
+    <circle cx="70" cy="23" r="6" fill="#27c93f"/>
+    <text x="100" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8b949e">~/sec-notes</text>
+    <rect y="45" width="1200" height="1" fill="#30363d"/>
+
+    <!-- wordmark -->
+    <text x="56" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="60" font-weight="700" fill="#e6edf3" letter-spacing="-1">sec-notes</text>
+
+    <!-- tagline -->
+    <text x="58" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#8b949e">Notes, writeups and resources from my journey into CTFs and offensive security.</text>
+
+    <!-- prompt -->
+    <text x="56" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+      <tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3" xml:space="preserve"> cat ./focus</tspan>
+    </text>
+    <text x="56" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#58a6ff">web · pwn · reverse engineering · crypto · forensics</text>
+    <text x="56" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+      <tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3" xml:space="preserve"> status </tspan><tspan fill="#d29922">learning-in-progress</tspan><tspan fill="#e6edf3">_</tspan>
+    </text>
+
+    <!-- accent edge -->
+    <rect y="316" width="1200" height="4" fill="url(#edge)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="none" stroke="#30363d"/>
+</svg>
