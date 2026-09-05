@@ -1,0 +1,35 @@
+# --- Reference material -------------------------------------------------
+# Books live on disk only. They are copyrighted works and are never
+# committed or redistributed. What ships is the curated index in
+# books/README.md.
+*.pdf
+*.epub
+*.mobi
+*.azw3
+*.djvu
+*.chm
+
+# --- Secrets and credentials --------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+*.ovpn
+id_rsa*
+credentials
+secrets.*
+
+# --- Obsidian ------------------------------------------------------------
+# Notes are authored in a separate Obsidian vault and copied in by hand.
+# If a vault folder ever lands here, its local state must not follow.
+.obsidian/
+.trash/
+
+# --- OS and editor noise -------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
