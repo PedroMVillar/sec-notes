@@ -68,7 +68,8 @@ database error or changed behaviour. From there SQLi extends to:
   Full workflow in [UNION-based SQL injection](union-based-sql-injection.md).
 - **Blind (boolean/time-based)** — no visible output, so you ask true/false
   questions (`AND 1=1` vs `AND 1=2`) or use delays (`SLEEP(5)`) and read the
-  answer from the response.
+  answer from the response. Full workflow and an extractor in
+  [Blind SQL injection](blind-sql-injection.md).
 - Automated with `sqlmap` once you have confirmed an injectable parameter.
 
 ## The fix
