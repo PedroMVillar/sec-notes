@@ -83,6 +83,10 @@ ids you should not own — especially `1`, low numbers, and neighbours of your o
 - NotePad (course, Class 2) — notes addressed by `/notes?id=N`; changed the id to
   read the admin's note (id 1). *(Write-up kept local until the course releases
   it.)*
+- DocVault (course, Class 2) — random UUID ids (not enumerable) but leaked via an
+  `/activity` feed, and access control was client-side only; calling
+  `/api/documents/<uuid>` directly returned the admin's doc. Shows UUIDs and
+  client checks are not access control. *(Write-up kept local until release.)*
 
 ## Sources
 

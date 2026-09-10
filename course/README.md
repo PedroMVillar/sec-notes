@@ -38,6 +38,7 @@ theory is written once and reused across challenges.
 | InvoiceHub Clone † | Web / API | [Mass assignment & BFLA](../notes/web-security/mass-assignment.md) |
 | SecureAuth † | Web | [Blind SQL injection](../notes/web-security/blind-sql-injection.md) |
 | Foro Interno (con filtro) † | Web | [XSS — filter bypass](../notes/web-security/xss.md) |
+| DocVault † | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
 
 † Write-up kept local until the course releases the official solution; only the
 technique note is published.
