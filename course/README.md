@@ -24,3 +24,4 @@ theory is written once and reused across challenges.
 | [Sin Backup](class-01-intro/sin-backup.md) | Reversing | [Reversing decompiled password checks](../notes/reverse-engineering/reversing-decompiled-password-checks.md) |
 | [Secret in the Source](class-01-intro/secret-in-the-source.md) | Web | [Secrets in client-side code](../notes/web-security/client-side-secrets.md) |
 | [InvoiceHub](class-01-intro/invoicehub.md) | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
+| [NorthGate Bank](class-01-intro/northgate-bank.md) | Web | [SQL injection](../notes/web-security/sql-injection.md) |
