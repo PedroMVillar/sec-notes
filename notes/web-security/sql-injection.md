@@ -65,6 +65,7 @@ The single quote is also how you *detect* SQLi: submit `'` and watch for a
 database error or changed behaviour. From there SQLi extends to:
 
 - **UNION-based** — append `UNION SELECT ...` to pull data from other tables.
+  Full workflow in [UNION-based SQL injection](union-based-sql-injection.md).
 - **Blind (boolean/time-based)** — no visible output, so you ask true/false
   questions (`AND 1=1` vs `AND 1=2`) or use delays (`SLEEP(5)`) and read the
   answer from the response.
