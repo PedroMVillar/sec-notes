@@ -42,6 +42,34 @@ The `<img onerror>` form is the go-to when `<script>` is filtered: the image
 fails to load (`src=x`), the `onerror` handler fires, your JS runs. Both are
 loud on purpose — `alert` just proves execution.
 
+## Bypassing input filters
+
+XSS does **not** require a `<script>` tag, so a filter that only strips `<script>`
+is trivially bypassed — any element with an **event handler** runs JavaScript:
+
+```html
+<img src=x onerror="PAYLOAD">
+<svg onload="PAYLOAD">
+<body onload="PAYLOAD">
+<iframe onload="PAYLOAD">
+<input autofocus onfocus="PAYLOAD">
+<details open ontoggle="PAYLOAD">
+```
+
+Other common bypasses for naive filters:
+
+- **Case / spacing:** `<ScRiPt>`, `<script/x>`, extra whitespace — if the filter
+  is case-sensitive or matches too literally.
+- **Broken-up tags:** `<scr<script>ipt>` — a filter that removes one `<script>`
+  can leave a valid one behind.
+- **Attribute breakout:** if input lands inside an attribute, close it first:
+  `"><img src=x onerror=PAYLOAD>` or `" onmouseover="PAYLOAD`.
+- **Encoding:** HTML entities / URL encoding the filter decodes after checking.
+
+Blacklisting a keyword is a broken defense — there are too many vectors. The real
+fix is output encoding + CSP (below). The Assis *XSS Cheat Sheet* in the
+bibliography is a payload reference for exactly this.
+
 ## Cookie theft and HttpOnly
 
 The high-value target is usually the session cookie:
@@ -90,6 +118,9 @@ non-HttpOnly cookie, XSS reads it directly.
 - Foro Interno (course, Class 2) — stored XSS: comments persisted and served to
   every visitor unescaped; injected JS can read DOM data (a hidden flag div) and
   exfiltrate it. *(Write-up kept local until the course releases it.)*
+- Foro Interno con filtro (course, Class 2) — the "fix" only stripped `<script>`;
+  an event-handler vector (`<img onerror>` / `<svg onload>`) bypasses it. Flag
+  again in a hidden div. *(Write-up kept local until the course releases it.)*
 
 ## Sources
 

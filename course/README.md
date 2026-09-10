@@ -37,6 +37,7 @@ theory is written once and reused across challenges.
 | Foro Interno † | Web | [Cross-Site Scripting (XSS)](../notes/web-security/xss.md) |
 | InvoiceHub Clone † | Web / API | [Mass assignment & BFLA](../notes/web-security/mass-assignment.md) |
 | SecureAuth † | Web | [Blind SQL injection](../notes/web-security/blind-sql-injection.md) |
+| Foro Interno (con filtro) † | Web | [XSS — filter bypass](../notes/web-security/xss.md) |
 
 † Write-up kept local until the course releases the official solution; only the
 technique note is published.
