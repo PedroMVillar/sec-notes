@@ -87,6 +87,9 @@ non-HttpOnly cookie, XSS reads it directly.
   the query unescaped; a flag stored in a non-`HttpOnly` cookie was read with
   `<script>alert(document.cookie)</script>`. *(Write-up kept local until the
   course releases it.)*
+- Foro Interno (course, Class 2) — stored XSS: comments persisted and served to
+  every visitor unescaped; injected JS can read DOM data (a hidden flag div) and
+  exfiltrate it. *(Write-up kept local until the course releases it.)*
 
 ## Sources
 
