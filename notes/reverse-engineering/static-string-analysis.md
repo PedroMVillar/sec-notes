@@ -99,7 +99,7 @@ Storing a secret in a client-side binary is fundamentally unsafe:
 
 ## Seen in
 
-- [legado](../../course/legado.md) — introductory course challenge; hardcoded
+- [legado](../../course/class-01-intro/legado.md) — introductory course challenge; hardcoded
   password recovered from `.rodata` with `strings`.
 
 ## Sources

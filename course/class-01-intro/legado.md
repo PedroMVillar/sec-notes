@@ -1,5 +1,6 @@
 ---
 platform: course
+class: 1
 target: legado
 category: reversing
 difficulty: introductory
@@ -11,7 +12,7 @@ date: 2026-09-09
 
 # legado
 
-**Category:** Reversing · **Level:** Introductory · **Source:** course lab
+**Class:** 1 (Intro) · **Category:** Reversing · **Level:** Introductory
 
 An old lab program that asks for a password and prints "access granted" only if
 you get it right. No source code — just the executable. The password is the
@@ -77,13 +78,13 @@ printf 'THE_CANDIDATE\n' | ./legado
 FaMAF{ ...redacted... }
 ```
 
-Redacted deliberately — see [course notes](README.md). The flag itself, read in
+Redacted deliberately — see [course notes](../README.md). The flag itself, read in
 leetspeak, spelled out the lesson: *strings travel with the binary*.
 
 ## Technique
 
 Full, source-backed write-up of the method:
-[Static string analysis](../notes/reverse-engineering/static-string-analysis.md).
+[Static string analysis](../../notes/reverse-engineering/static-string-analysis.md).
 
 The 30-second reflex this challenge drills:
 
