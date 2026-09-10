@@ -32,6 +32,7 @@ theory is written once and reused across challenges.
 |---|---|---|
 | [Acceso VIP](class-02-web/acceso-vip.md) | Web | [SQL injection](../notes/web-security/sql-injection.md) |
 | QuickFind † | Web | [Cross-Site Scripting (XSS)](../notes/web-security/xss.md) |
+| NotePad † | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
 
 † Write-up kept local until the course releases the official solution; only the
 technique note is published.

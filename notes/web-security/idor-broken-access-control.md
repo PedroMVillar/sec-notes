@@ -78,6 +78,9 @@ ids you should not own — especially `1`, low numbers, and neighbours of your o
 - [InvoiceHub](../../course/class-01-intro/invoicehub.md) — invoices addressed by
   sequential id; logged in as `alice`, requested `/invoice/1` (another client's)
   and read it without any ownership check.
+- NotePad (course, Class 2) — notes addressed by `/notes?id=N`; changed the id to
+  read the admin's note (id 1). *(Write-up kept local until the course releases
+  it.)*
 
 ## Sources
 
