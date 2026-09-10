@@ -35,6 +35,7 @@ theory is written once and reused across challenges.
 | NotePad † | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
 | ByteBazaar Leaks † | Web | [UNION-based SQL injection](../notes/web-security/union-based-sql-injection.md) |
 | Foro Interno † | Web | [Cross-Site Scripting (XSS)](../notes/web-security/xss.md) |
+| InvoiceHub Clone † | Web / API | [Mass assignment & BFLA](../notes/web-security/mass-assignment.md) |
 
 † Write-up kept local until the course releases the official solution; only the
 technique note is published.

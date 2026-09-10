@@ -49,7 +49,9 @@ headers, or JSON bodies: `/invoice/2`, `?user_id=15`, `/api/v1/account/2222`.
 - **Horizontal** — reach data of another user at the *same* privilege level
   (another client's invoice). This is the InvoiceHub case.
 - **Vertical** — reach higher-privilege data or functions (`/admin/...`) as a
-  low-privileged user (privilege escalation).
+  low-privileged user (privilege escalation). When it's a *function* rather than
+  an object, that's BFLA — see
+  [Mass assignment & broken function-level authorization](mass-assignment.md).
 
 ## Why it is #1, and the fix
 
