@@ -20,3 +20,4 @@ theory is written once and reused across challenges.
 | Challenge | Category | Technique |
 |---|---|---|
 | [legado](class-01-intro/legado.md) | Reversing | [Static string analysis](../notes/reverse-engineering/static-string-analysis.md) |
+| [Ping-Pong](class-01-intro/ping-pong.md) | Crypto / weak hash | [Weak hashes and preimage attacks](../notes/cryptography/weak-hash-preimage.md) |
