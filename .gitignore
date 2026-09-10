@@ -33,3 +33,10 @@ desktop.ini
 .idea/
 *.swp
 *~
+
+# --- Course write-ups pending release ------------------------------------
+# Write-ups for course challenges whose official solutions are not yet
+# released are kept on local disk only, and published once the course
+# releases them. Technique notes under notes/ are NOT affected.
+/course/class-02-web/*.md
+!/course/class-02-web/README.md
