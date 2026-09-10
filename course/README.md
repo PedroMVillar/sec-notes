@@ -39,6 +39,7 @@ theory is written once and reused across challenges.
 | SecureAuth † | Web | [Blind SQL injection](../notes/web-security/blind-sql-injection.md) |
 | Foro Interno (con filtro) † | Web | [XSS — filter bypass](../notes/web-security/xss.md) |
 | DocVault † | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
+| Corp Portal v2 † | Web / Auth | [Brute force & missing rate limiting](../notes/web-security/brute-force-rate-limiting.md) |
 
 † Write-up kept local until the course releases the official solution; only the
 technique note is published.
