@@ -83,6 +83,9 @@ CPU to use it. So when static analysis fails, move to dynamic:
   or script/emulate it to decode the strings.
 - **Unpackers** — restore a packed binary before static analysis.
 
+Once you are reading the decompiled logic of a key check, see
+[reversing decompiled password checks](reversing-decompiled-password-checks.md).
+
 ## Security lesson
 
 Storing a secret in a client-side binary is fundamentally unsafe:
