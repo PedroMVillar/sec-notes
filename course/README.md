@@ -25,3 +25,9 @@ theory is written once and reused across challenges.
 | [Secret in the Source](class-01-intro/secret-in-the-source.md) | Web | [Secrets in client-side code](../notes/web-security/client-side-secrets.md) |
 | [InvoiceHub](class-01-intro/invoicehub.md) | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
 | [NorthGate Bank](class-01-intro/northgate-bank.md) | Web | [SQL injection](../notes/web-security/sql-injection.md) |
+
+## Class 2 — Web
+
+| Challenge | Category | Technique |
+|---|---|---|
+| [Acceso VIP](class-02-web/acceso-vip.md) | Web | [SQL injection](../notes/web-security/sql-injection.md) |

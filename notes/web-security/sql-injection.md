@@ -109,6 +109,8 @@ or `' OR '1'='1' --` to bypass auth.
 - [NorthGate Bank](../../course/class-01-intro/northgate-bank.md) — login built
   by string concatenation; `admin' --` commented out the password check and
   logged in as admin.
+- [Acceso VIP](../../course/class-02-web/acceso-vip.md) — same auth bypass on an
+  unfiltered internal portal; solved in one payload.
 
 ## Sources
 
