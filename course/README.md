@@ -23,3 +23,4 @@ theory is written once and reused across challenges.
 | [Ping-Pong](class-01-intro/ping-pong.md) | Crypto / weak hash | [Weak hashes and preimage attacks](../notes/cryptography/weak-hash-preimage.md) |
 | [Sin Backup](class-01-intro/sin-backup.md) | Reversing | [Reversing decompiled password checks](../notes/reverse-engineering/reversing-decompiled-password-checks.md) |
 | [Secret in the Source](class-01-intro/secret-in-the-source.md) | Web | [Secrets in client-side code](../notes/web-security/client-side-secrets.md) |
+| [InvoiceHub](class-01-intro/invoicehub.md) | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
