@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/learning-in%20progress-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/focus-offensive%20security-red?style=for-the-badge" />
 <img src="https://img.shields.io/badge/books-37-1f6feb?style=for-the-badge" />
-<img src="https://img.shields.io/badge/writeups-0-6e7681?style=for-the-badge" />
+<img src="https://img.shields.io/badge/CTFs%20solved-18-8957e5?style=for-the-badge" />
 <img src="https://img.shields.io/badge/license-CC%20BY%204.0-3fb950?style=for-the-badge" />
 
 <br/>
