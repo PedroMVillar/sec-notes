@@ -40,7 +40,7 @@ theory is written once and reused across challenges.
 | Foro Interno (con filtro) † | Web | [XSS — filter bypass](../notes/web-security/xss.md) |
 | DocVault † | Web | [IDOR and broken access control](../notes/web-security/idor-broken-access-control.md) |
 | Corp Portal v2 † | Web / Auth | [Brute force & missing rate limiting](../notes/web-security/brute-force-rate-limiting.md) |
-| Corp Portal — Recuperación † | Web / Auth | [Insecure password reset & predictable tokens](../notes/web-security/insecure-password-reset.md) |
+| Corp Portal — Recuperación † | Web / Auth | [Password reset & account recovery attacks](../notes/web-security/insecure-password-reset.md) |
 | Corp API † | Web / API | [JWT attacks](../notes/web-security/jwt-attacks.md) |
 
 † Write-up kept local until the course releases the official solution; only the
