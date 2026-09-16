@@ -45,3 +45,9 @@ theory is written once and reused across challenges.
 
 † Write-up kept local until the course releases the official solution; only the
 technique note is published.
+
+## Class 3 — Misconfiguration & Exposure
+
+| Challenge | Category | Technique |
+|---|---|---|
+| Corp Portal — Legacy † | Web | [Exposed .git & source code disclosure](../notes/web-security/git-exposure-source-disclosure.md) |

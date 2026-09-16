@@ -38,5 +38,8 @@ desktop.ini
 # Write-ups for course challenges whose official solutions are not yet
 # released are kept on local disk only, and published once the course
 # releases them. Technique notes under notes/ are NOT affected.
-/course/class-02-web/*.md
-!/course/class-02-web/README.md
+# Class 1 write-ups are public; later classes stay local until the course
+# releases their official solutions.
+/course/*/*.md
+!/course/*/README.md
+!/course/class-01-intro/*.md
